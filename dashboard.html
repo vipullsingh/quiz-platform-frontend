@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard - Quiz Builder</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <header>
+    <h1>Quiz Builder</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="dashboard.html">Dashboard</a></li>
+      <li><a href="quiz.html">Quiz</a></li>
+      <li><a href="leaderboard.html">Leaderboard</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <!-- <section id="create-quiz-section">
+      <h2>Create Quiz</h2>
+      <form id="create-quiz-form">
+        <label for="quiz-title">Quiz Title:</label>
+        <input type="text" id="quiz-title" required>
+        <label for="quiz-description">Quiz Description:</label>
+        <textarea id="quiz-description" required></textarea>
+        <label for="num-questions">Number of Questions:</label>
+        <input type="number" id="num-questions" min="2" max="10" required>
+        <div id="questions-container"></div>
+        <button type="submit">Create Quiz</button>
+      </form>
+    </section> -->
+
+    <section id="quizzes-section">
+      <h2>Quizzes</h2>
+      <div id="quizzes-container"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Quiz Builder &copy; 2023</p>
+  </footer>
+
+  <script src="js/api.js"></script>
+  <script src="js/utils.js"></script>
+  <script src="js/dashboard.js"></script>
+</body>
+
+</html>

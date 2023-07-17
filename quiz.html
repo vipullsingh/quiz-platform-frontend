@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz - Quiz Builder</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <header>
+    <h1>Quiz Builder</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="dashboard.html">Dashboard</a></li>
+      <li><a href="quiz.html">Quiz</a></li>
+      <li><a href="leaderboard.html">Leaderboard</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="quiz-section">
+      <h2 id="question-title">Question Title</h2>
+      <div id="options-container">
+        <div class="option">
+          <input type="radio" name="answer-option" value="0" id="option-1">
+          <label for="option-1">Option 1</label>
+        </div>
+        <div class="option">
+          <input type="radio" name="answer-option" value="1" id="option-2">
+          <label for="option-2">Option 2</label>
+        </div>
+        <div class="option">
+          <input type="radio" name="answer-option" value="2" id="option-3">
+          <label for="option-3">Option 3</label>
+        </div>
+      </div>
+      <div id="quiz-navigation">
+        <button id="previous-button">Previous</button>
+        <button id="next-button">Next</button>
+      </div>
+      <button id="submit-button">Submit Quiz</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>Quiz Builder &copy; 2023</p>
+  </footer>
+
+  <script src="js/quiz.js"></script>
+</body>
+
+</html>
