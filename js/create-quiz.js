@@ -79,7 +79,7 @@ document.addEventListener('DOMContentLoaded', () => {
   
         try {
           // Send the quiz data to the server
-          const response = await fetch('http://localhost:3000/api/quizzes', {
+          const response = await fetch('https://quiz-feus.onrender.com/api/quizzes', {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json',

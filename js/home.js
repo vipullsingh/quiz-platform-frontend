@@ -24,7 +24,7 @@ function handleRegistration(event) {
     };
     
     // Send a POST request to register the user
-    fetch('http://localhost:3000/api/users/', {
+    fetch('https://quiz-feus.onrender.com/api/users/', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'

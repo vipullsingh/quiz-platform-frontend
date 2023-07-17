@@ -5,7 +5,7 @@ const quizId = urlParams.get('id');
 // Function to fetch the leaderboard data from the server
 async function fetchLeaderboard() {
   try {
-    const response = await fetch(`http://localhost:3000/api/leaderboard/${quizId}`);
+    const response = await fetch(`https://quiz-feus.onrender.com/api/leaderboard/${quizId}`);
     const data = await response.json();
     const leaderboard = data.leaderboard;
 

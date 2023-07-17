@@ -167,7 +167,7 @@ document.addEventListener('DOMContentLoaded', () => {
 // Fetch the quizzes from the server
 async function fetchQuizzes() {
   try {
-    const response = await fetch('http://localhost:3000/api/quizzes/');
+    const response = await fetch('https://quiz-feus.onrender.com/api/quizzes/');
     const responseData = await response.json();
 
     if (response.ok) {

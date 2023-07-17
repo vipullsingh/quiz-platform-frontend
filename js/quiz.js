@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
       try {
         const urlParams = new URLSearchParams(window.location.search);
         quizId = urlParams.get('id');
-        const response = await fetch(`http://localhost:3000/api/quizzes/${quizId}`);
+        const response = await fetch(`https://quiz-feus.onrender.com/api/quizzes/${quizId}`);
         const data = await response.json();
         quizData = data.quiz;
         // alert(JSON.stringify(quizData));
